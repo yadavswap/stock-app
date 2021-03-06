@@ -488,7 +488,7 @@ def insertintotable():
                                low_s=today_stock['Low'].to_string(index=False),vol=today_stock['Volume'].to_string(index=False),
                                forecast_set=forecast_set,error_lr=round(error_lr,2),error_lstm=round(error_lstm,2),error_arima=round(error_arima,2))
 if __name__ == '__main__':
-   app.run()
+    app.run(debug=True)
    
 
 
